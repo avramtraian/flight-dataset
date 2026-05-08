@@ -1,0 +1,189 @@
+from dataclasses import dataclass
+import random
+import config
+import numpy as np
+import pandas as pd
+
+@dataclass
+class Flight:
+    flight_id: int
+    departure_airport: str
+    arrival_airport: str
+    airline: str
+    month: config.Month
+    is_holiday: bool
+    departure_weather: config.Weather
+    arrival_weather: config.Weather
+    departure_congestion: float
+    arrival_congestion: float
+    ticket_price: int
+    is_delayed: bool
+
+class Context:
+    airports: dict[str, config.AirportConfig]
+    airlines: dict[str, config.AirlineConfig]
+    is_holiday_probability: float
+    weather_factor_map: dict[config.Weather, float]
+
+def init_context() -> Context:
+    context = Context()
+    context.airports = config.load_airports("airports.json")
+    context.airlines = config.load_airlines("airlines.json")
+    context.is_holiday_probability = 0.05
+    context.weather_factor_map = {
+        config.Weather.CLEAR: 0.0,
+        config.Weather.CLOUDY: 0.1,
+        config.Weather.RAIN: 0.2,
+        config.Weather.FOG: 0.4,
+        config.Weather.SNOW: 0.6,
+        config.Weather.RAINSTORM: 0.8,
+        config.Weather.THUNDERSTORM: 1.0,
+    }
+    return context
+
+def generate_weather_for_airport(
+    context: Context,
+    airport_code: str,
+    month: config.Month,
+    is_holiday: bool,
+) -> config.Weather:
+    airport = context.airports[airport_code]
+    airport_weather = airport.weather[month]
+
+    conditions = list(airport_weather.probabilities.keys())
+    condition_weights = list(airport_weather.probabilities.values())
+    condition = random.choices(conditions, weights=condition_weights, k=1)[0]
+    return condition
+
+def generate_congestion_factor_for_airport(
+    context: Context,
+    airport_code: str,
+    month: config.Month,
+    is_holiday: bool,
+) -> float:
+    airport = context.airports[airport_code]
+    base_factor = airport.congestion_factors[month]
+    holiday_multiplier = 1.0
+    if is_holiday:
+        holiday_multiplier = airport.holiday_congestion_multiplier
+    return base_factor * holiday_multiplier
+
+def get_flight_distance(context: Context, departure_code: str, arrival_code: str) -> float:
+    departure = context.airports[departure_code]
+    arrival = context.airports[arrival_code]
+    
+    # VERY simplified formula for calculating the distance from two points expressed in
+    # longitude/latitude coordinates.
+    dx = (arrival.coord_x - departure.coord_x) * 111
+    dy = (arrival.coord_y - departure.coord_y) * 111
+    return np.sqrt(dx**2 + dy**2)
+
+# The implementation of the `P_delay(W_D, W_A, K_D, K_A, Q, BP)` mentioned in the documentation.
+# Arguably, the most important and interesting function in the entire project!
+def calculate_delayed_probability(
+    context: Context,
+    departure_weather: config.Weather,
+    arrival_weather: config.Weather,
+    departure_congestion_factor: float,
+    arrival_congestion_factor: float,
+    ticket_price: int,
+    airline_base_delay_probability: float
+) -> float:
+    # Mathematical factors.
+    W_D = context.weather_factor_map[departure_weather]
+    W_A = context.weather_factor_map[arrival_weather]
+    K_D = departure_congestion_factor
+    K_A = arrival_congestion_factor
+    Q   = float(ticket_price)
+    BP  = airline_base_delay_probability
+
+    return 0.0
+
+def generate_flight(context: Context) -> Flight:
+    # Randomly generate the departure and arrival airports.
+    departure = random.choice(list(context.airports.keys()))
+    arrival = random.choice(list(context.airports.keys()))
+    if len(context.airports) >= 2:
+        while departure == arrival:
+            arrival = random.choice(list(context.airports.keys()))
+
+    # Based on the market share, generate an airline.
+    airline_codes = list(context.airlines.keys())
+    airline_weights = list()
+    for airline in context.airlines.values():
+        airline_weights.append(airline.market_share)
+    airline_code = random.choices(airline_codes, weights=airline_weights, k=1)[0]
+
+    # Randomly generate the month when the flight is programmed.
+    month = random.choice(list(config.Month))
+
+    # Generate whether the flight is programmed on a holiday.
+    is_holiday = random.random() < context.is_holiday_probability
+
+    departure_weather = generate_weather_for_airport(context, departure, month, is_holiday)
+    departure_congestion = generate_congestion_factor_for_airport(context, departure, month, is_holiday)
+    arrival_weather = generate_weather_for_airport(context, arrival, month, is_holiday)
+    arrival_congestion = generate_congestion_factor_for_airport(context, arrival, month, is_holiday)
+
+    flight_distance = get_flight_distance(context, departure, arrival)
+    airline_ticket_cost = context.airlines[airline_code].ticket_cost
+    airline_base_delay_probability = context.airlines[airline_code].base_delay_probability
+    ticket_price = int((flight_distance / 1000.0) * airline_ticket_cost)
+
+    # Determine if the flight is delayed.
+    delayed_probability = calculate_delayed_probability(
+        context,
+        departure_weather,
+        arrival_weather,
+        departure_congestion,
+        arrival_congestion,
+        ticket_price,
+        airline_base_delay_probability
+    )
+    is_delayed = random.random() < delayed_probability
+
+    return Flight(
+        flight_id = 0,
+        departure_airport = departure,
+        arrival_airport = arrival,
+        airline = airline_code,
+        month = month,
+        is_holiday = is_holiday,
+        departure_weather = departure_weather,
+        arrival_weather = arrival_weather,
+        departure_congestion = departure_congestion,
+        arrival_congestion = arrival_congestion,
+        ticket_price = ticket_price,
+        is_delayed = is_delayed
+    )
+
+def generate_flights(context: Context, number_of_flights: int) -> list[Flight]:
+    flights = list()
+    for i in range(number_of_flights):
+        flights.append(generate_flight(context))
+    return flights
+
+def write_flights_to_csv(file_path: str, flights: list[Flight]):
+    data_frame_rows = list()
+    for flight in flights:
+        data_frame_rows.append({
+            "flight_id": flight.flight_id,
+            "departure_airport": flight.departure_airport,
+            "arrival_airport": flight.arrival_airport,
+            "airline": flight.airline,
+            "month": flight.month.value,
+            "is_holiday": flight.is_holiday,
+            "departure_weather": flight.departure_weather.value,
+            "arrival_weather": flight.arrival_weather.value,
+            "departure_congestion": flight.departure_congestion,
+            "arrival_congestion": flight.arrival_congestion,
+            "ticket_price": flight.ticket_price,
+            "is_delayed": flight.is_delayed
+        })
+
+    df = pd.DataFrame(data_frame_rows)
+    df.to_csv(file_path, index = False)
+
+context = init_context()
+flights = generate_flights(context, 2500)
+write_flights_to_csv("train.csv", flights)
