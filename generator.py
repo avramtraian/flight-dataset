@@ -97,7 +97,16 @@ def calculate_delayed_probability(
     Q   = float(ticket_price)
     BP  = airline_base_delay_probability
 
-    return 0.0
+    # Linear coefficients.
+    A_1 = 0.3
+    A_2 = 0.3
+    A_3 = 0.1
+    A_4 = 0.1
+    A_5 = 0.0
+    A_6 = 0.2
+
+    probability = (A_1 * W_D) + (A_2 * W_A) + (A_3 * K_D) + (A_4 * K_A) + (A_5 * Q) + (A_6 * BP)
+    return min(1.0, max(0.0, probability))
 
 def generate_flight(context: Context) -> Flight:
     # Randomly generate the departure and arrival airports.
