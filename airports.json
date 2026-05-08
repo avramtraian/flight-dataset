@@ -1,0 +1,2642 @@
+[
+  {
+    "code": "OTP",
+    "name": "Henri Coanda International Airport",
+    "coord_x": 44.5711,
+    "coord_y": 26.085,
+    "max_daily_flights": 300,
+    "congestion_factors": [
+      0.45,
+      0.42,
+      0.5,
+      0.55,
+      0.6,
+      0.7,
+      0.78,
+      0.8,
+      0.65,
+      0.58,
+      0.52,
+      0.68
+    ],
+    "holiday_congestion_multiplier": 1.25,
+    "weather": [
+      {
+        "clear": 0.18,
+        "cloudy": 0.38,
+        "rain": 0.08,
+        "fog": 0.14,
+        "snow": 0.2,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.22,
+        "cloudy": 0.36,
+        "rain": 0.1,
+        "fog": 0.12,
+        "snow": 0.18,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.32,
+        "cloudy": 0.34,
+        "rain": 0.17,
+        "fog": 0.08,
+        "snow": 0.07,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.42,
+        "cloudy": 0.3,
+        "rain": 0.18,
+        "fog": 0.04,
+        "snow": 0.01,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.48,
+        "cloudy": 0.26,
+        "rain": 0.17,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.55,
+        "cloudy": 0.2,
+        "rain": 0.14,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.05
+      },
+      {
+        "clear": 0.65,
+        "cloudy": 0.17,
+        "rain": 0.08,
+        "fog": 0.0,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.06
+      },
+      {
+        "clear": 0.68,
+        "cloudy": 0.16,
+        "rain": 0.07,
+        "fog": 0.0,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.05
+      },
+      {
+        "clear": 0.55,
+        "cloudy": 0.24,
+        "rain": 0.13,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.4,
+        "cloudy": 0.34,
+        "rain": 0.15,
+        "fog": 0.08,
+        "snow": 0.01,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.25,
+        "cloudy": 0.42,
+        "rain": 0.16,
+        "fog": 0.12,
+        "snow": 0.04,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.18,
+        "cloudy": 0.4,
+        "rain": 0.08,
+        "fog": 0.14,
+        "snow": 0.18,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      }
+    ]
+  },
+  {
+    "code": "LHR",
+    "name": "London Heathrow Airport",
+    "coord_x": 51.47,
+    "coord_y": -0.4543,
+    "max_daily_flights": 1300,
+    "congestion_factors": [
+      0.58,
+      0.55,
+      0.62,
+      0.68,
+      0.76,
+      0.88,
+      0.95,
+      0.92,
+      0.78,
+      0.72,
+      0.68,
+      0.9
+    ],
+    "holiday_congestion_multiplier": 1.2,
+    "weather": [
+      {
+        "clear": 0.18,
+        "cloudy": 0.45,
+        "rain": 0.25,
+        "fog": 0.08,
+        "snow": 0.02,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.2,
+        "cloudy": 0.43,
+        "rain": 0.25,
+        "fog": 0.07,
+        "snow": 0.02,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.25,
+        "cloudy": 0.42,
+        "rain": 0.23,
+        "fog": 0.06,
+        "snow": 0.01,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.32,
+        "cloudy": 0.38,
+        "rain": 0.21,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.36,
+        "cloudy": 0.36,
+        "rain": 0.19,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.03
+      },
+      {
+        "clear": 0.4,
+        "cloudy": 0.34,
+        "rain": 0.17,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.03
+      },
+      {
+        "clear": 0.42,
+        "cloudy": 0.33,
+        "rain": 0.16,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.03
+      },
+      {
+        "clear": 0.4,
+        "cloudy": 0.34,
+        "rain": 0.17,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.03
+      },
+      {
+        "clear": 0.34,
+        "cloudy": 0.38,
+        "rain": 0.2,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.26,
+        "cloudy": 0.42,
+        "rain": 0.23,
+        "fog": 0.05,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.2,
+        "cloudy": 0.45,
+        "rain": 0.25,
+        "fog": 0.07,
+        "snow": 0.01,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.17,
+        "cloudy": 0.46,
+        "rain": 0.26,
+        "fog": 0.08,
+        "snow": 0.01,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      }
+    ]
+  },
+  {
+    "code": "JFK",
+    "name": "John F. Kennedy International Airport",
+    "coord_x": 40.6413,
+    "coord_y": -73.7781,
+    "max_daily_flights": 1200,
+    "congestion_factors": [
+      0.58,
+      0.55,
+      0.62,
+      0.68,
+      0.76,
+      0.88,
+      0.95,
+      0.92,
+      0.78,
+      0.72,
+      0.68,
+      0.9
+    ],
+    "holiday_congestion_multiplier": 1.25,
+    "weather": [
+      {
+        "clear": 0.25,
+        "cloudy": 0.35,
+        "rain": 0.12,
+        "fog": 0.08,
+        "snow": 0.17,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.28,
+        "cloudy": 0.34,
+        "rain": 0.13,
+        "fog": 0.07,
+        "snow": 0.15,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.35,
+        "cloudy": 0.32,
+        "rain": 0.18,
+        "fog": 0.06,
+        "snow": 0.06,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.43,
+        "cloudy": 0.3,
+        "rain": 0.18,
+        "fog": 0.04,
+        "snow": 0.01,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.5,
+        "cloudy": 0.25,
+        "rain": 0.15,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.04
+      },
+      {
+        "clear": 0.55,
+        "cloudy": 0.22,
+        "rain": 0.1,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.06
+      },
+      {
+        "clear": 0.55,
+        "cloudy": 0.2,
+        "rain": 0.1,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.08
+      },
+      {
+        "clear": 0.56,
+        "cloudy": 0.2,
+        "rain": 0.1,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.07
+      },
+      {
+        "clear": 0.48,
+        "cloudy": 0.25,
+        "rain": 0.14,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.05
+      },
+      {
+        "clear": 0.42,
+        "cloudy": 0.3,
+        "rain": 0.17,
+        "fog": 0.05,
+        "snow": 0.01,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.32,
+        "cloudy": 0.36,
+        "rain": 0.16,
+        "fog": 0.07,
+        "snow": 0.07,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.25,
+        "cloudy": 0.36,
+        "rain": 0.12,
+        "fog": 0.08,
+        "snow": 0.16,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      }
+    ]
+  },
+  {
+    "code": "LAX",
+    "name": "Los Angeles International Airport",
+    "coord_x": 33.9416,
+    "coord_y": -118.4085,
+    "max_daily_flights": 1400,
+    "congestion_factors": [
+      0.58,
+      0.55,
+      0.62,
+      0.68,
+      0.76,
+      0.88,
+      0.95,
+      0.92,
+      0.78,
+      0.72,
+      0.68,
+      0.9
+    ],
+    "holiday_congestion_multiplier": 1.2,
+    "weather": [
+      {
+        "clear": 0.62,
+        "cloudy": 0.22,
+        "rain": 0.1,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.63,
+        "cloudy": 0.22,
+        "rain": 0.09,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.66,
+        "cloudy": 0.21,
+        "rain": 0.07,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.72,
+        "cloudy": 0.2,
+        "rain": 0.04,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.75,
+        "cloudy": 0.19,
+        "rain": 0.02,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.8,
+        "cloudy": 0.16,
+        "rain": 0.01,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.85,
+        "cloudy": 0.1,
+        "rain": 0.02,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.86,
+        "cloudy": 0.09,
+        "rain": 0.02,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.83,
+        "cloudy": 0.12,
+        "rain": 0.02,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.78,
+        "cloudy": 0.16,
+        "rain": 0.03,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.68,
+        "cloudy": 0.22,
+        "rain": 0.06,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.62,
+        "cloudy": 0.23,
+        "rain": 0.1,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      }
+    ]
+  },
+  {
+    "code": "GRU",
+    "name": "Sao Paulo/Guarulhos International Airport",
+    "coord_x": -23.4356,
+    "coord_y": -46.4731,
+    "max_daily_flights": 900,
+    "congestion_factors": [
+      0.9,
+      0.82,
+      0.72,
+      0.64,
+      0.6,
+      0.66,
+      0.78,
+      0.72,
+      0.66,
+      0.68,
+      0.76,
+      0.95
+    ],
+    "holiday_congestion_multiplier": 1.25,
+    "weather": [
+      {
+        "clear": 0.35,
+        "cloudy": 0.25,
+        "rain": 0.2,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.09
+      },
+      {
+        "clear": 0.36,
+        "cloudy": 0.25,
+        "rain": 0.2,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.08
+      },
+      {
+        "clear": 0.4,
+        "cloudy": 0.28,
+        "rain": 0.18,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.06,
+        "thunderstorm": 0.05
+      },
+      {
+        "clear": 0.48,
+        "cloudy": 0.3,
+        "rain": 0.14,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.52,
+        "cloudy": 0.31,
+        "rain": 0.11,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.55,
+        "cloudy": 0.3,
+        "rain": 0.1,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.56,
+        "cloudy": 0.3,
+        "rain": 0.09,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.55,
+        "cloudy": 0.29,
+        "rain": 0.1,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.5,
+        "cloudy": 0.28,
+        "rain": 0.13,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.03
+      },
+      {
+        "clear": 0.45,
+        "cloudy": 0.27,
+        "rain": 0.17,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.04
+      },
+      {
+        "clear": 0.39,
+        "cloudy": 0.27,
+        "rain": 0.19,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.06,
+        "thunderstorm": 0.06
+      },
+      {
+        "clear": 0.35,
+        "cloudy": 0.25,
+        "rain": 0.2,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.09
+      }
+    ]
+  },
+  {
+    "code": "MEX",
+    "name": "Mexico City International Airport",
+    "coord_x": 19.4361,
+    "coord_y": -99.0719,
+    "max_daily_flights": 1000,
+    "congestion_factors": [
+      0.72,
+      0.7,
+      0.76,
+      0.8,
+      0.84,
+      0.88,
+      0.9,
+      0.88,
+      0.82,
+      0.8,
+      0.78,
+      0.92
+    ],
+    "holiday_congestion_multiplier": 1.25,
+    "weather": [
+      {
+        "clear": 0.65,
+        "cloudy": 0.2,
+        "rain": 0.06,
+        "fog": 0.06,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.68,
+        "cloudy": 0.19,
+        "rain": 0.05,
+        "fog": 0.05,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.67,
+        "cloudy": 0.18,
+        "rain": 0.06,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.03
+      },
+      {
+        "clear": 0.6,
+        "cloudy": 0.2,
+        "rain": 0.1,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.04
+      },
+      {
+        "clear": 0.45,
+        "cloudy": 0.25,
+        "rain": 0.17,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.06
+      },
+      {
+        "clear": 0.35,
+        "cloudy": 0.28,
+        "rain": 0.22,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.06,
+        "thunderstorm": 0.07
+      },
+      {
+        "clear": 0.32,
+        "cloudy": 0.28,
+        "rain": 0.2,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.1
+      },
+      {
+        "clear": 0.34,
+        "cloudy": 0.28,
+        "rain": 0.2,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.07,
+        "thunderstorm": 0.09
+      },
+      {
+        "clear": 0.35,
+        "cloudy": 0.28,
+        "rain": 0.2,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.07,
+        "thunderstorm": 0.08
+      },
+      {
+        "clear": 0.48,
+        "cloudy": 0.25,
+        "rain": 0.14,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.05
+      },
+      {
+        "clear": 0.62,
+        "cloudy": 0.21,
+        "rain": 0.08,
+        "fog": 0.05,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.65,
+        "cloudy": 0.2,
+        "rain": 0.06,
+        "fog": 0.06,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      }
+    ]
+  },
+  {
+    "code": "DXB",
+    "name": "Dubai International Airport",
+    "coord_x": 25.2532,
+    "coord_y": 55.3657,
+    "max_daily_flights": 1500,
+    "congestion_factors": [
+      0.78,
+      0.76,
+      0.8,
+      0.82,
+      0.84,
+      0.86,
+      0.88,
+      0.86,
+      0.82,
+      0.84,
+      0.86,
+      0.9
+    ],
+    "holiday_congestion_multiplier": 1.2,
+    "weather": [
+      {
+        "clear": 0.72,
+        "cloudy": 0.2,
+        "rain": 0.04,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.76,
+        "cloudy": 0.17,
+        "rain": 0.04,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.78,
+        "cloudy": 0.16,
+        "rain": 0.03,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.82,
+        "cloudy": 0.13,
+        "rain": 0.02,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.86,
+        "cloudy": 0.11,
+        "rain": 0.01,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.9,
+        "cloudy": 0.08,
+        "rain": 0.01,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.0,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.9,
+        "cloudy": 0.08,
+        "rain": 0.01,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.0,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.89,
+        "cloudy": 0.09,
+        "rain": 0.01,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.0,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.88,
+        "cloudy": 0.1,
+        "rain": 0.01,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.0,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.84,
+        "cloudy": 0.13,
+        "rain": 0.01,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.78,
+        "cloudy": 0.17,
+        "rain": 0.03,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.72,
+        "cloudy": 0.2,
+        "rain": 0.04,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      }
+    ]
+  },
+  {
+    "code": "SIN",
+    "name": "Singapore Changi Airport",
+    "coord_x": 1.3644,
+    "coord_y": 103.9915,
+    "max_daily_flights": 1100,
+    "congestion_factors": [
+      0.78,
+      0.76,
+      0.8,
+      0.82,
+      0.84,
+      0.86,
+      0.88,
+      0.86,
+      0.82,
+      0.84,
+      0.86,
+      0.92
+    ],
+    "holiday_congestion_multiplier": 1.18,
+    "weather": [
+      {
+        "clear": 0.28,
+        "cloudy": 0.27,
+        "rain": 0.24,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.1,
+        "thunderstorm": 0.1
+      },
+      {
+        "clear": 0.35,
+        "cloudy": 0.25,
+        "rain": 0.22,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.09
+      },
+      {
+        "clear": 0.36,
+        "cloudy": 0.25,
+        "rain": 0.22,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.07,
+        "thunderstorm": 0.09
+      },
+      {
+        "clear": 0.34,
+        "cloudy": 0.25,
+        "rain": 0.22,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.1
+      },
+      {
+        "clear": 0.34,
+        "cloudy": 0.25,
+        "rain": 0.22,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.1
+      },
+      {
+        "clear": 0.36,
+        "cloudy": 0.25,
+        "rain": 0.21,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.09
+      },
+      {
+        "clear": 0.37,
+        "cloudy": 0.25,
+        "rain": 0.2,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.09
+      },
+      {
+        "clear": 0.36,
+        "cloudy": 0.25,
+        "rain": 0.21,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.09
+      },
+      {
+        "clear": 0.34,
+        "cloudy": 0.25,
+        "rain": 0.22,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.1
+      },
+      {
+        "clear": 0.32,
+        "cloudy": 0.26,
+        "rain": 0.23,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.09,
+        "thunderstorm": 0.09
+      },
+      {
+        "clear": 0.28,
+        "cloudy": 0.27,
+        "rain": 0.24,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.1,
+        "thunderstorm": 0.1
+      },
+      {
+        "clear": 0.27,
+        "cloudy": 0.27,
+        "rain": 0.25,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.1,
+        "thunderstorm": 0.1
+      }
+    ]
+  },
+  {
+    "code": "HND",
+    "name": "Tokyo Haneda Airport",
+    "coord_x": 35.5494,
+    "coord_y": 139.7798,
+    "max_daily_flights": 1300,
+    "congestion_factors": [
+      0.58,
+      0.55,
+      0.62,
+      0.68,
+      0.76,
+      0.88,
+      0.95,
+      0.92,
+      0.78,
+      0.72,
+      0.68,
+      0.9
+    ],
+    "holiday_congestion_multiplier": 1.3,
+    "weather": [
+      {
+        "clear": 0.55,
+        "cloudy": 0.25,
+        "rain": 0.07,
+        "fog": 0.04,
+        "snow": 0.07,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.55,
+        "cloudy": 0.24,
+        "rain": 0.08,
+        "fog": 0.04,
+        "snow": 0.07,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.48,
+        "cloudy": 0.27,
+        "rain": 0.14,
+        "fog": 0.04,
+        "snow": 0.03,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.45,
+        "cloudy": 0.3,
+        "rain": 0.15,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.03
+      },
+      {
+        "clear": 0.42,
+        "cloudy": 0.3,
+        "rain": 0.17,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.04
+      },
+      {
+        "clear": 0.3,
+        "cloudy": 0.36,
+        "rain": 0.22,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.04
+      },
+      {
+        "clear": 0.42,
+        "cloudy": 0.27,
+        "rain": 0.15,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.06,
+        "thunderstorm": 0.08
+      },
+      {
+        "clear": 0.5,
+        "cloudy": 0.23,
+        "rain": 0.12,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.06,
+        "thunderstorm": 0.07
+      },
+      {
+        "clear": 0.35,
+        "cloudy": 0.3,
+        "rain": 0.18,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.06
+      },
+      {
+        "clear": 0.42,
+        "cloudy": 0.31,
+        "rain": 0.15,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.04
+      },
+      {
+        "clear": 0.5,
+        "cloudy": 0.29,
+        "rain": 0.12,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.55,
+        "cloudy": 0.26,
+        "rain": 0.08,
+        "fog": 0.04,
+        "snow": 0.05,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      }
+    ]
+  },
+  {
+    "code": "SYD",
+    "name": "Sydney Kingsford Smith Airport",
+    "coord_x": -33.9399,
+    "coord_y": 151.1753,
+    "max_daily_flights": 900,
+    "congestion_factors": [
+      0.9,
+      0.82,
+      0.72,
+      0.64,
+      0.6,
+      0.66,
+      0.78,
+      0.72,
+      0.66,
+      0.68,
+      0.76,
+      0.95
+    ],
+    "holiday_congestion_multiplier": 1.25,
+    "weather": [
+      {
+        "clear": 0.58,
+        "cloudy": 0.25,
+        "rain": 0.08,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.04
+      },
+      {
+        "clear": 0.56,
+        "cloudy": 0.25,
+        "rain": 0.09,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.04
+      },
+      {
+        "clear": 0.52,
+        "cloudy": 0.27,
+        "rain": 0.12,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.04
+      },
+      {
+        "clear": 0.46,
+        "cloudy": 0.32,
+        "rain": 0.14,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.42,
+        "cloudy": 0.36,
+        "rain": 0.15,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.38,
+        "cloudy": 0.38,
+        "rain": 0.16,
+        "fog": 0.05,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.4,
+        "cloudy": 0.38,
+        "rain": 0.15,
+        "fog": 0.05,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.45,
+        "cloudy": 0.34,
+        "rain": 0.14,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.5,
+        "cloudy": 0.3,
+        "rain": 0.12,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.54,
+        "cloudy": 0.28,
+        "rain": 0.1,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.03
+      },
+      {
+        "clear": 0.57,
+        "cloudy": 0.26,
+        "rain": 0.09,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.03
+      },
+      {
+        "clear": 0.58,
+        "cloudy": 0.25,
+        "rain": 0.08,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.04
+      }
+    ]
+  },
+  {
+    "code": "CPT",
+    "name": "Cape Town International Airport",
+    "coord_x": -33.9715,
+    "coord_y": 18.6021,
+    "max_daily_flights": 350,
+    "congestion_factors": [
+      0.86,
+      0.8,
+      0.68,
+      0.58,
+      0.52,
+      0.56,
+      0.62,
+      0.6,
+      0.58,
+      0.62,
+      0.72,
+      0.9
+    ],
+    "holiday_congestion_multiplier": 1.25,
+    "weather": [
+      {
+        "clear": 0.7,
+        "cloudy": 0.18,
+        "rain": 0.06,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.68,
+        "cloudy": 0.19,
+        "rain": 0.07,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.62,
+        "cloudy": 0.22,
+        "rain": 0.1,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.5,
+        "cloudy": 0.3,
+        "rain": 0.13,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.42,
+        "cloudy": 0.34,
+        "rain": 0.17,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.35,
+        "cloudy": 0.35,
+        "rain": 0.2,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.34,
+        "cloudy": 0.36,
+        "rain": 0.2,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.38,
+        "cloudy": 0.35,
+        "rain": 0.18,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.48,
+        "cloudy": 0.3,
+        "rain": 0.15,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.58,
+        "cloudy": 0.25,
+        "rain": 0.1,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.66,
+        "cloudy": 0.2,
+        "rain": 0.07,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.7,
+        "cloudy": 0.18,
+        "rain": 0.06,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.02
+      }
+    ]
+  },
+  {
+    "code": "JNB",
+    "name": "O. R. Tambo International Airport",
+    "coord_x": -26.1337,
+    "coord_y": 28.242,
+    "max_daily_flights": 500,
+    "congestion_factors": [
+      0.82,
+      0.76,
+      0.68,
+      0.62,
+      0.58,
+      0.62,
+      0.72,
+      0.7,
+      0.66,
+      0.68,
+      0.76,
+      0.88
+    ],
+    "holiday_congestion_multiplier": 1.25,
+    "weather": [
+      {
+        "clear": 0.45,
+        "cloudy": 0.2,
+        "rain": 0.15,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.06,
+        "thunderstorm": 0.12
+      },
+      {
+        "clear": 0.47,
+        "cloudy": 0.2,
+        "rain": 0.14,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.06,
+        "thunderstorm": 0.11
+      },
+      {
+        "clear": 0.52,
+        "cloudy": 0.22,
+        "rain": 0.12,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.07
+      },
+      {
+        "clear": 0.62,
+        "cloudy": 0.23,
+        "rain": 0.08,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.7,
+        "cloudy": 0.22,
+        "rain": 0.04,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.72,
+        "cloudy": 0.21,
+        "rain": 0.03,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.0,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.72,
+        "cloudy": 0.2,
+        "rain": 0.03,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.74,
+        "cloudy": 0.18,
+        "rain": 0.03,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.68,
+        "cloudy": 0.2,
+        "rain": 0.05,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.03
+      },
+      {
+        "clear": 0.56,
+        "cloudy": 0.22,
+        "rain": 0.1,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.06
+      },
+      {
+        "clear": 0.48,
+        "cloudy": 0.21,
+        "rain": 0.14,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.06,
+        "thunderstorm": 0.09
+      },
+      {
+        "clear": 0.45,
+        "cloudy": 0.2,
+        "rain": 0.15,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.06,
+        "thunderstorm": 0.12
+      }
+    ]
+  },
+  {
+    "code": "CAI",
+    "name": "Cairo International Airport",
+    "coord_x": 30.1115,
+    "coord_y": 31.4,
+    "max_daily_flights": 600,
+    "congestion_factors": [
+      0.66,
+      0.64,
+      0.7,
+      0.74,
+      0.78,
+      0.84,
+      0.88,
+      0.86,
+      0.78,
+      0.74,
+      0.72,
+      0.86
+    ],
+    "holiday_congestion_multiplier": 1.2,
+    "weather": [
+      {
+        "clear": 0.65,
+        "cloudy": 0.25,
+        "rain": 0.05,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.68,
+        "cloudy": 0.23,
+        "rain": 0.04,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.72,
+        "cloudy": 0.2,
+        "rain": 0.03,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.78,
+        "cloudy": 0.17,
+        "rain": 0.02,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.0,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.84,
+        "cloudy": 0.13,
+        "rain": 0.01,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.0,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.88,
+        "cloudy": 0.09,
+        "rain": 0.01,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.0,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.88,
+        "cloudy": 0.09,
+        "rain": 0.01,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.0,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.87,
+        "cloudy": 0.1,
+        "rain": 0.01,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.0,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.84,
+        "cloudy": 0.13,
+        "rain": 0.01,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.0,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.78,
+        "cloudy": 0.17,
+        "rain": 0.02,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.0,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.7,
+        "cloudy": 0.22,
+        "rain": 0.04,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.65,
+        "cloudy": 0.25,
+        "rain": 0.05,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.0
+      }
+    ]
+  },
+  {
+    "code": "IST",
+    "name": "Istanbul Airport",
+    "coord_x": 41.2753,
+    "coord_y": 28.7519,
+    "max_daily_flights": 1500,
+    "congestion_factors": [
+      0.58,
+      0.55,
+      0.62,
+      0.68,
+      0.76,
+      0.88,
+      0.95,
+      0.92,
+      0.78,
+      0.72,
+      0.68,
+      0.9
+    ],
+    "holiday_congestion_multiplier": 1.25,
+    "weather": [
+      {
+        "clear": 0.25,
+        "cloudy": 0.38,
+        "rain": 0.18,
+        "fog": 0.08,
+        "snow": 0.08,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.28,
+        "cloudy": 0.36,
+        "rain": 0.18,
+        "fog": 0.07,
+        "snow": 0.08,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.36,
+        "cloudy": 0.34,
+        "rain": 0.17,
+        "fog": 0.05,
+        "snow": 0.03,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.45,
+        "cloudy": 0.3,
+        "rain": 0.15,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.52,
+        "cloudy": 0.26,
+        "rain": 0.12,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.03
+      },
+      {
+        "clear": 0.6,
+        "cloudy": 0.22,
+        "rain": 0.08,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.04
+      },
+      {
+        "clear": 0.68,
+        "cloudy": 0.18,
+        "rain": 0.06,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.04
+      },
+      {
+        "clear": 0.69,
+        "cloudy": 0.17,
+        "rain": 0.06,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.04
+      },
+      {
+        "clear": 0.58,
+        "cloudy": 0.24,
+        "rain": 0.1,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.03
+      },
+      {
+        "clear": 0.45,
+        "cloudy": 0.31,
+        "rain": 0.15,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.32,
+        "cloudy": 0.38,
+        "rain": 0.18,
+        "fog": 0.06,
+        "snow": 0.03,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.25,
+        "cloudy": 0.39,
+        "rain": 0.18,
+        "fog": 0.08,
+        "snow": 0.07,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      }
+    ]
+  },
+  {
+    "code": "DEL",
+    "name": "Indira Gandhi International Airport",
+    "coord_x": 28.5562,
+    "coord_y": 77.1,
+    "max_daily_flights": 1300,
+    "congestion_factors": [
+      0.72,
+      0.7,
+      0.76,
+      0.8,
+      0.84,
+      0.88,
+      0.9,
+      0.88,
+      0.82,
+      0.84,
+      0.86,
+      0.94
+    ],
+    "holiday_congestion_multiplier": 1.25,
+    "weather": [
+      {
+        "clear": 0.45,
+        "cloudy": 0.22,
+        "rain": 0.06,
+        "fog": 0.25,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.55,
+        "cloudy": 0.22,
+        "rain": 0.07,
+        "fog": 0.13,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.62,
+        "cloudy": 0.2,
+        "rain": 0.06,
+        "fog": 0.06,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.04
+      },
+      {
+        "clear": 0.65,
+        "cloudy": 0.18,
+        "rain": 0.05,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.06
+      },
+      {
+        "clear": 0.58,
+        "cloudy": 0.2,
+        "rain": 0.07,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.08
+      },
+      {
+        "clear": 0.38,
+        "cloudy": 0.3,
+        "rain": 0.18,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.06
+      },
+      {
+        "clear": 0.25,
+        "cloudy": 0.32,
+        "rain": 0.25,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.07
+      },
+      {
+        "clear": 0.24,
+        "cloudy": 0.32,
+        "rain": 0.26,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.07
+      },
+      {
+        "clear": 0.32,
+        "cloudy": 0.3,
+        "rain": 0.21,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.07,
+        "thunderstorm": 0.07
+      },
+      {
+        "clear": 0.58,
+        "cloudy": 0.23,
+        "rain": 0.08,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.04
+      },
+      {
+        "clear": 0.62,
+        "cloudy": 0.21,
+        "rain": 0.05,
+        "fog": 0.1,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.5,
+        "cloudy": 0.22,
+        "rain": 0.05,
+        "fog": 0.21,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      }
+    ]
+  },
+  {
+    "code": "BKK",
+    "name": "Suvarnabhumi Airport",
+    "coord_x": 13.69,
+    "coord_y": 100.7501,
+    "max_daily_flights": 900,
+    "congestion_factors": [
+      0.78,
+      0.76,
+      0.8,
+      0.82,
+      0.84,
+      0.86,
+      0.88,
+      0.86,
+      0.82,
+      0.84,
+      0.86,
+      0.92
+    ],
+    "holiday_congestion_multiplier": 1.25,
+    "weather": [
+      {
+        "clear": 0.62,
+        "cloudy": 0.22,
+        "rain": 0.08,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.03
+      },
+      {
+        "clear": 0.64,
+        "cloudy": 0.21,
+        "rain": 0.07,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.03
+      },
+      {
+        "clear": 0.55,
+        "cloudy": 0.22,
+        "rain": 0.1,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.07
+      },
+      {
+        "clear": 0.45,
+        "cloudy": 0.24,
+        "rain": 0.15,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.07,
+        "thunderstorm": 0.08
+      },
+      {
+        "clear": 0.34,
+        "cloudy": 0.27,
+        "rain": 0.22,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.08
+      },
+      {
+        "clear": 0.32,
+        "cloudy": 0.28,
+        "rain": 0.23,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.08
+      },
+      {
+        "clear": 0.31,
+        "cloudy": 0.28,
+        "rain": 0.23,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.09
+      },
+      {
+        "clear": 0.3,
+        "cloudy": 0.28,
+        "rain": 0.24,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.08,
+        "thunderstorm": 0.09
+      },
+      {
+        "clear": 0.28,
+        "cloudy": 0.28,
+        "rain": 0.24,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.09,
+        "thunderstorm": 0.1
+      },
+      {
+        "clear": 0.32,
+        "cloudy": 0.27,
+        "rain": 0.22,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.09,
+        "thunderstorm": 0.09
+      },
+      {
+        "clear": 0.48,
+        "cloudy": 0.24,
+        "rain": 0.14,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.06,
+        "thunderstorm": 0.07
+      },
+      {
+        "clear": 0.6,
+        "cloudy": 0.22,
+        "rain": 0.09,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.04
+      }
+    ]
+  },
+  {
+    "code": "YYZ",
+    "name": "Toronto Pearson International Airport",
+    "coord_x": 43.6777,
+    "coord_y": -79.6248,
+    "max_daily_flights": 1000,
+    "congestion_factors": [
+      0.58,
+      0.55,
+      0.62,
+      0.68,
+      0.76,
+      0.88,
+      0.95,
+      0.92,
+      0.78,
+      0.72,
+      0.68,
+      0.9
+    ],
+    "holiday_congestion_multiplier": 1.25,
+    "weather": [
+      {
+        "clear": 0.2,
+        "cloudy": 0.38,
+        "rain": 0.08,
+        "fog": 0.08,
+        "snow": 0.24,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.24,
+        "cloudy": 0.36,
+        "rain": 0.09,
+        "fog": 0.07,
+        "snow": 0.22,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.32,
+        "cloudy": 0.35,
+        "rain": 0.13,
+        "fog": 0.06,
+        "snow": 0.1,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.42,
+        "cloudy": 0.32,
+        "rain": 0.16,
+        "fog": 0.04,
+        "snow": 0.02,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.5,
+        "cloudy": 0.27,
+        "rain": 0.14,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.03
+      },
+      {
+        "clear": 0.55,
+        "cloudy": 0.23,
+        "rain": 0.1,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.05
+      },
+      {
+        "clear": 0.55,
+        "cloudy": 0.22,
+        "rain": 0.1,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.06
+      },
+      {
+        "clear": 0.56,
+        "cloudy": 0.22,
+        "rain": 0.1,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.05,
+        "thunderstorm": 0.05
+      },
+      {
+        "clear": 0.48,
+        "cloudy": 0.27,
+        "rain": 0.14,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.04,
+        "thunderstorm": 0.04
+      },
+      {
+        "clear": 0.38,
+        "cloudy": 0.34,
+        "rain": 0.16,
+        "fog": 0.05,
+        "snow": 0.03,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.28,
+        "cloudy": 0.38,
+        "rain": 0.12,
+        "fog": 0.07,
+        "snow": 0.13,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.21,
+        "cloudy": 0.38,
+        "rain": 0.08,
+        "fog": 0.08,
+        "snow": 0.23,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      }
+    ]
+  },
+  {
+    "code": "SCL",
+    "name": "Santiago International Airport",
+    "coord_x": -33.3928,
+    "coord_y": -70.7858,
+    "max_daily_flights": 500,
+    "congestion_factors": [
+      0.82,
+      0.76,
+      0.66,
+      0.58,
+      0.52,
+      0.56,
+      0.64,
+      0.6,
+      0.56,
+      0.62,
+      0.72,
+      0.88
+    ],
+    "holiday_congestion_multiplier": 1.25,
+    "weather": [
+      {
+        "clear": 0.82,
+        "cloudy": 0.12,
+        "rain": 0.03,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.8,
+        "cloudy": 0.13,
+        "rain": 0.04,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.74,
+        "cloudy": 0.17,
+        "rain": 0.05,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.62,
+        "cloudy": 0.23,
+        "rain": 0.1,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.5,
+        "cloudy": 0.28,
+        "rain": 0.15,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.45,
+        "cloudy": 0.3,
+        "rain": 0.17,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.44,
+        "cloudy": 0.31,
+        "rain": 0.17,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.5,
+        "cloudy": 0.29,
+        "rain": 0.14,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.03,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.6,
+        "cloudy": 0.24,
+        "rain": 0.1,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.7,
+        "cloudy": 0.18,
+        "rain": 0.07,
+        "fog": 0.02,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.78,
+        "cloudy": 0.14,
+        "rain": 0.04,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.82,
+        "cloudy": 0.12,
+        "rain": 0.03,
+        "fog": 0.01,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      }
+    ]
+  },
+  {
+    "code": "AKL",
+    "name": "Auckland Airport",
+    "coord_x": -37.0082,
+    "coord_y": 174.785,
+    "max_daily_flights": 500,
+    "congestion_factors": [
+      0.84,
+      0.78,
+      0.68,
+      0.6,
+      0.56,
+      0.6,
+      0.68,
+      0.64,
+      0.6,
+      0.64,
+      0.72,
+      0.88
+    ],
+    "holiday_congestion_multiplier": 1.25,
+    "weather": [
+      {
+        "clear": 0.48,
+        "cloudy": 0.32,
+        "rain": 0.14,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.48,
+        "cloudy": 0.32,
+        "rain": 0.14,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.44,
+        "cloudy": 0.34,
+        "rain": 0.15,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.02
+      },
+      {
+        "clear": 0.38,
+        "cloudy": 0.38,
+        "rain": 0.18,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.34,
+        "cloudy": 0.4,
+        "rain": 0.2,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.3,
+        "cloudy": 0.42,
+        "rain": 0.22,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.3,
+        "cloudy": 0.42,
+        "rain": 0.22,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.33,
+        "cloudy": 0.4,
+        "rain": 0.21,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.38,
+        "cloudy": 0.38,
+        "rain": 0.18,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.42,
+        "cloudy": 0.36,
+        "rain": 0.16,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.46,
+        "cloudy": 0.34,
+        "rain": 0.14,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.48,
+        "cloudy": 0.32,
+        "rain": 0.14,
+        "fog": 0.03,
+        "snow": 0.0,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      }
+    ]
+  },
+  {
+    "code": "KEF",
+    "name": "Keflavik International Airport",
+    "coord_x": 63.985,
+    "coord_y": -22.6056,
+    "max_daily_flights": 200,
+    "congestion_factors": [
+      0.46,
+      0.44,
+      0.5,
+      0.58,
+      0.66,
+      0.78,
+      0.86,
+      0.84,
+      0.68,
+      0.56,
+      0.48,
+      0.6
+    ],
+    "holiday_congestion_multiplier": 1.2,
+    "weather": [
+      {
+        "clear": 0.12,
+        "cloudy": 0.42,
+        "rain": 0.18,
+        "fog": 0.1,
+        "snow": 0.16,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.14,
+        "cloudy": 0.42,
+        "rain": 0.17,
+        "fog": 0.09,
+        "snow": 0.16,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.18,
+        "cloudy": 0.43,
+        "rain": 0.18,
+        "fog": 0.08,
+        "snow": 0.11,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.22,
+        "cloudy": 0.44,
+        "rain": 0.2,
+        "fog": 0.07,
+        "snow": 0.05,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.26,
+        "cloudy": 0.44,
+        "rain": 0.22,
+        "fog": 0.05,
+        "snow": 0.01,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.28,
+        "cloudy": 0.45,
+        "rain": 0.21,
+        "fog": 0.04,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.28,
+        "cloudy": 0.45,
+        "rain": 0.2,
+        "fog": 0.05,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.27,
+        "cloudy": 0.45,
+        "rain": 0.21,
+        "fog": 0.05,
+        "snow": 0.0,
+        "rainstorm": 0.01,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.22,
+        "cloudy": 0.44,
+        "rain": 0.22,
+        "fog": 0.06,
+        "snow": 0.03,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.16,
+        "cloudy": 0.43,
+        "rain": 0.2,
+        "fog": 0.08,
+        "snow": 0.1,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.01
+      },
+      {
+        "clear": 0.12,
+        "cloudy": 0.42,
+        "rain": 0.18,
+        "fog": 0.1,
+        "snow": 0.16,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      },
+      {
+        "clear": 0.1,
+        "cloudy": 0.42,
+        "rain": 0.18,
+        "fog": 0.1,
+        "snow": 0.18,
+        "rainstorm": 0.02,
+        "thunderstorm": 0.0
+      }
+    ]
+  }
+]

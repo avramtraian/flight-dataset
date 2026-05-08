@@ -1,0 +1,122 @@
+[
+  {
+    "code": "WZZ",
+    "name": "Wizz Air",
+    "market_share": 0.08,
+    "ticket_cost": 65,
+    "base_delay_probability": 0.12,
+    "holiday_delay_multiplier": 1.2
+  },
+  {
+    "code": "RYR",
+    "name": "Ryanair",
+    "market_share": 0.16,
+    "ticket_cost": 55,
+    "base_delay_probability": 0.1,
+    "holiday_delay_multiplier": 1.15
+  },
+  {
+    "code": "DLH",
+    "name": "Lufthansa",
+    "market_share": 0.08,
+    "ticket_cost": 120,
+    "base_delay_probability": 0.09,
+    "holiday_delay_multiplier": 1.18
+  },
+  {
+    "code": "AFR",
+    "name": "Air France",
+    "market_share": 0.07,
+    "ticket_cost": 115,
+    "base_delay_probability": 0.11,
+    "holiday_delay_multiplier": 1.2
+  },
+  {
+    "code": "KLM",
+    "name": "KLM Royal Dutch Airlines",
+    "market_share": 0.05,
+    "ticket_cost": 110,
+    "base_delay_probability": 0.08,
+    "holiday_delay_multiplier": 1.16
+  },
+  {
+    "code": "BAW",
+    "name": "British Airways",
+    "market_share": 0.07,
+    "ticket_cost": 130,
+    "base_delay_probability": 0.1,
+    "holiday_delay_multiplier": 1.22
+  },
+  {
+    "code": "EZY",
+    "name": "easyJet",
+    "market_share": 0.1,
+    "ticket_cost": 70,
+    "base_delay_probability": 0.13,
+    "holiday_delay_multiplier": 1.18
+  },
+  {
+    "code": "VLG",
+    "name": "Vueling",
+    "market_share": 0.06,
+    "ticket_cost": 75,
+    "base_delay_probability": 0.12,
+    "holiday_delay_multiplier": 1.19
+  },
+  {
+    "code": "THY",
+    "name": "Turkish Airlines",
+    "market_share": 0.09,
+    "ticket_cost": 105,
+    "base_delay_probability": 0.09,
+    "holiday_delay_multiplier": 1.17
+  },
+  {
+    "code": "AUA",
+    "name": "Austrian Airlines",
+    "market_share": 0.03,
+    "ticket_cost": 100,
+    "base_delay_probability": 0.08,
+    "holiday_delay_multiplier": 1.14
+  },
+  {
+    "code": "SWR",
+    "name": "Swiss International Air Lines",
+    "market_share": 0.04,
+    "ticket_cost": 125,
+    "base_delay_probability": 0.07,
+    "holiday_delay_multiplier": 1.12
+  },
+  {
+    "code": "NAX",
+    "name": "Norwegian Air Shuttle",
+    "market_share": 0.04,
+    "ticket_cost": 80,
+    "base_delay_probability": 0.11,
+    "holiday_delay_multiplier": 1.18
+  },
+  {
+    "code": "TAP",
+    "name": "TAP Air Portugal",
+    "market_share": 0.04,
+    "ticket_cost": 95,
+    "base_delay_probability": 0.1,
+    "holiday_delay_multiplier": 1.16
+  },
+  {
+    "code": "SAS",
+    "name": "Scandinavian Airlines",
+    "market_share": 0.04,
+    "ticket_cost": 105,
+    "base_delay_probability": 0.09,
+    "holiday_delay_multiplier": 1.15
+  },
+  {
+    "code": "IBE",
+    "name": "Iberia",
+    "market_share": 0.05,
+    "ticket_cost": 100,
+    "base_delay_probability": 0.1,
+    "holiday_delay_multiplier": 1.17
+  }
+]
