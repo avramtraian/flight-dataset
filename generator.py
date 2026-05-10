@@ -19,12 +19,19 @@ class Flight:
     ticket_price: int
     is_delayed: bool
 
+@dataclass
+class OutlierStats:
+    probability: float
+    min_multiplier: float
+    max_multiplier: float
+
 class Context:
     airports: dict[str, config.AirportConfig]
     airlines: dict[str, config.AirlineConfig]
     is_holiday_probability: float
     weather_factor_map: dict[config.Weather, float]
     missing_probabilities: dict[str, float]
+    outliers: dict[str, OutlierStats]
 
 def init_context() -> Context:
     context = Context()
@@ -47,6 +54,28 @@ def init_context() -> Context:
         "departure_congestion": 0.02,
         "arrival_congestion": 0.03,
         "ticket_price": 0.05,
+    }
+    context.outliers = {
+        "departure_congestion": OutlierStats(
+            probability = 0.01,
+            min_multiplier = 1.04,
+            max_multiplier = 1.05,
+        ),
+        "arrival_congestion": OutlierStats(
+            probability = 0.01,
+            min_multiplier = 1.04,
+            max_multiplier = 1.05,
+        ),
+        "ticket_price": OutlierStats(
+            probability = 0.04,
+            min_multiplier = 1.04,
+            max_multiplier = 1.05,
+        ),
+        "is_delayed": OutlierStats(
+            probability = 0.005,
+            min_multiplier = 0.0,
+            max_multiplier = 0.0,
+        )
     }
     return context
 
@@ -202,6 +231,33 @@ def insert_missing_characteristics(context: Context, flights: list[Flight]):
         if random.random() < probabilities["ticket_price"]:
             flight.ticket_price = INVALID_TICKET_PRICE
 
+def insert_outliers(context: Context, flights: list[Flight]):
+    outliers = context.outliers
+    departure_congestion = outliers["departure_congestion"]
+    arrival_congestion = outliers["arrival_congestion"]
+    ticket_price = outliers["ticket_price"]
+    is_delayed = outliers["is_delayed"]
+
+    for flight in flights:
+        # Departure congestion
+        if random.random() < departure_congestion.probability:
+            multiplier = random.uniform(departure_congestion.min_multiplier, departure_congestion.max_multiplier)
+            flight.departure_congestion = flight.departure_congestion * multiplier
+
+        # Arrival congestion
+        if random.random() < arrival_congestion.probability:
+            multiplier = random.uniform(arrival_congestion.min_multiplier, arrival_congestion.max_multiplier)
+            flight.arrival_congestion = flight.arrival_congestion * multiplier
+
+        # Ticket price
+        if random.random() < ticket_price.probability:
+            multiplier = random.uniform(ticket_price.min_multiplier, ticket_price.max_multiplier)
+            flight.ticket_price = flight.ticket_price * multiplier
+
+        # Is delayed
+        if random.random() < is_delayed.probability:
+            flight.is_delayed = not flight.is_delayed
+
 def write_flights_to_csv(file_path: str, flights: list[Flight]):
     data_frame_rows = list()
     for flight in flights:
@@ -234,4 +290,5 @@ def write_flights_to_csv(file_path: str, flights: list[Flight]):
 context = init_context()
 flights = generate_flights(context, 2500)
 insert_missing_characteristics(context, flights)
+insert_outliers(context, flights)
 write_flights_to_csv("train.csv", flights)
