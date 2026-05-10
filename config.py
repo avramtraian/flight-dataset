@@ -11,6 +11,7 @@ class Weather(Enum):
     SNOW = "snow"
     RAINSTORM = "rainstorm"
     THUNDERSTORM = "thunderstorm"
+    INVALID = "<invalid>"
 
 class Month(Enum):
     JANUARY = "January"
@@ -61,6 +62,8 @@ def load_airport_weather(json_data) -> dict[Month, AirportWeather]:
         )
 
         for condition in Weather:
+            if condition == Weather.INVALID:
+                continue
             month_weather.probabilities[condition] = float(raw_month_weather[condition.value])
         weather[month] = month_weather
     

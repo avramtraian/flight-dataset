@@ -24,6 +24,7 @@ class Context:
     airlines: dict[str, config.AirlineConfig]
     is_holiday_probability: float
     weather_factor_map: dict[config.Weather, float]
+    missing_probabilities: dict[str, float]
 
 def init_context() -> Context:
     context = Context()
@@ -38,6 +39,14 @@ def init_context() -> Context:
         config.Weather.SNOW: 0.6,
         config.Weather.RAINSTORM: 0.8,
         config.Weather.THUNDERSTORM: 1.0,
+    }
+    context.missing_probabilities = {
+        "airline": 0.01,
+        "departure_weather": 0.04,
+        "arrival_weather": 0.04,
+        "departure_congestion": 0.02,
+        "arrival_congestion": 0.03,
+        "ticket_price": 0.05,
     }
     return context
 
@@ -172,22 +181,51 @@ def generate_flights(context: Context, number_of_flights: int) -> list[Flight]:
         flights.append(generate_flight(context))
     return flights
 
+INVALID_AIRPORT = "???"
+INVALID_AIRLINE = "???"
+INVALID_CONGESTION = -1.0
+INVALID_TICKET_PRICE = 0
+
+def insert_missing_characteristics(context: Context, flights: list[Flight]):
+    probabilities = context.missing_probabilities
+    for flight in flights:
+        if random.random() < probabilities["airline"]:
+            flight.airline = INVALID_AIRLINE
+        if random.random() < probabilities["departure_weather"]:
+            flight.departure_weather = config.Weather.INVALID
+        if random.random() < probabilities["arrival_weather"]:
+            flight.arrival_weather = config.Weather.INVALID
+        if random.random() < probabilities["departure_congestion"]:
+            flight.departure_congestion = INVALID_CONGESTION
+        if random.random() < probabilities["arrival_congestion"]:
+            flight.arrival_congestion = INVALID_CONGESTION
+        if random.random() < probabilities["ticket_price"]:
+            flight.ticket_price = INVALID_TICKET_PRICE
+
 def write_flights_to_csv(file_path: str, flights: list[Flight]):
     data_frame_rows = list()
     for flight in flights:
+        departure_weather = None
+        if flight.departure_weather != config.Weather.INVALID:
+            departure_weather = flight.departure_weather.value
+
+        arrival_weather = None
+        if flight.arrival_weather != config.Weather.INVALID:
+            arrival_weather = flight.arrival_weather.value
+
         data_frame_rows.append({
-            "flight_id": flight.flight_id,
-            "departure_airport": flight.departure_airport,
-            "arrival_airport": flight.arrival_airport,
-            "airline": flight.airline,
-            "month": flight.month.value,
-            "is_holiday": flight.is_holiday,
-            "departure_weather": flight.departure_weather.value,
-            "arrival_weather": flight.arrival_weather.value,
-            "departure_congestion": flight.departure_congestion,
-            "arrival_congestion": flight.arrival_congestion,
-            "ticket_price": flight.ticket_price,
-            "is_delayed": flight.is_delayed
+            "flight_id":            flight.flight_id,
+            "departure_airport":    flight.departure_airport,
+            "arrival_airport":      flight.arrival_airport,
+            "airline":              None if flight.airline == INVALID_AIRLINE else flight.airline,
+            "month":                flight.month.value,
+            "is_holiday":           flight.is_holiday,
+            "departure_weather":    departure_weather,
+            "arrival_weather":      arrival_weather,
+            "departure_congestion": None if flight.departure_congestion == INVALID_CONGESTION   else flight.departure_congestion,
+            "arrival_congestion":   None if flight.arrival_congestion   == INVALID_CONGESTION   else flight.arrival_congestion,
+            "ticket_price":         None if flight.ticket_price         == INVALID_TICKET_PRICE else flight.ticket_price,
+            "is_delayed":           flight.is_delayed,
         })
 
     df = pd.DataFrame(data_frame_rows)
@@ -195,4 +233,5 @@ def write_flights_to_csv(file_path: str, flights: list[Flight]):
 
 context = init_context()
 flights = generate_flights(context, 2500)
+insert_missing_characteristics(context, flights)
 write_flights_to_csv("train.csv", flights)
