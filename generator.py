@@ -136,14 +136,21 @@ def calculate_delayed_probability(
     BP  = airline_base_delay_probability
 
     # Linear coefficients.
-    A_1 = 0.3
-    A_2 = 0.3
-    A_3 = 0.1
-    A_4 = 0.1
+    A_1 = 0.25
+    A_2 = 0.15
+    A_3 = 0.25
+    A_4 = 0.15
     A_5 = 0.0
-    A_6 = 0.2
+    A_6 = 1.0
 
-    probability = (A_1 * W_D) + (A_2 * W_A) + (A_3 * K_D) + (A_4 * K_A) + (A_5 * Q) + (A_6 * BP)
+    probability = (
+        (A_1 * W_D) +
+        (A_2 * W_A) +
+        (A_3 * K_D) +
+        (A_4 * K_A) +
+        (A_5 * Q  ) +
+        (A_6 * BP )
+    )
     return min(1.0, max(0.0, probability))
 
 def generate_flight(context: Context) -> Flight:
@@ -287,8 +294,20 @@ def write_flights_to_csv(file_path: str, flights: list[Flight]):
     df = pd.DataFrame(data_frame_rows)
     df.to_csv(file_path, index = False)
 
-context = init_context()
-flights = generate_flights(context, 2500)
-insert_missing_characteristics(context, flights)
-insert_outliers(context, flights)
-write_flights_to_csv("train.csv", flights)
+def main():
+    context = init_context()
+
+    TRAIN_DATASET_SIZE = 2000
+    train_flights = generate_flights(context, TRAIN_DATASET_SIZE)
+    insert_missing_characteristics(context, train_flights)
+    insert_outliers(context, train_flights)
+    write_flights_to_csv("train.csv", train_flights)
+
+    TEST_DATASET_SIZE = 1000
+    test_flights = generate_flights(context, TEST_DATASET_SIZE)
+    insert_missing_characteristics(context, test_flights)
+    insert_outliers(context, test_flights)
+    write_flights_to_csv("test.csv", test_flights)
+
+if __name__ == "__main__":
+    main()
